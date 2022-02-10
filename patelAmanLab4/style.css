@@ -1,0 +1,51 @@
+body{
+    background-color: bisque;
+    background-image:url("red.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-blend-mode:screen; 
+}
+h1{
+    background-image: linear-gradient(to right, red,green, blue, violet);
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+div{
+    background-color: darkgray;
+    border: 4px dashed red;
+    font-size:large;
+    width: 20%;
+    height:fit-content;
+}
+
+ol{
+    margin-left: 2pt;
+    width: 75%;
+}
+
+
+th,td{
+    border: 2px solid blue;
+    text-align: right;
+}
+table{
+    border: 2px solid red;
+    margin-left: 11mm;
+}
+
+caption{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}
+#row1{
+    background-color: skyblue;
+}
+
+
+
