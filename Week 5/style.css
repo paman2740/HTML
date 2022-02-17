@@ -1,0 +1,29 @@
+table {
+    margin-left:100px;
+    width: 30%;
+    border-top: 4pt double;
+    border-bottom: 4pt double;
+   /* border-right: black; */
+}
+
+td {
+    text-align: center;
+    border: 5pt solid red;
+    border-style:groove; /*inset;*/
+}
+
+.one{
+    color: blue;
+    background-color: black;
+}
+
+.two{
+    color:blueviolet;
+    background-color: black;
+}
+
+.three{
+    color:aquamarine;
+    background-color: black;
+}
+

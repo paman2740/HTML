@@ -1,0 +1,86 @@
+body{
+    background-color: bisque;
+    background-image:url("red.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-blend-mode:screen; 
+}
+h1{
+    background-image: linear-gradient(to right, red,green, blue, violet);
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+h1:hover{
+    background-image: linear-gradient(to right, green,red, violet, blue);
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+.info{
+    background-color: white;
+    border: 10pt groove grey;
+    font-size:large;
+    width: 30%;
+    height:fit-content;
+}
+.course{
+    background-color: darkgray;
+    border: 3pt double greenyellow;
+    font-size:large;
+    width: 30%;
+    height:fit-content;
+    text-align: center;
+    text-decoration: underline;
+    margin-left: 30%;
+}
+
+a:link
+{
+    text-decoration: none; 
+    color: blue;
+    font-family:cursive;
+}
+
+a:hover
+{
+
+    color: red;
+    font-size: larger;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+th,td{
+    border: 2px solid blue;
+    text-align: right;
+}
+table{
+    border: 2px solid red;
+    margin-left: 11mm;
+}
+
+.cap1{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}
+.cap2{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: right;
+}
+#row1{
+    background-color: skyblue;
+}
+
+#row2, #row4{
+    background-color: purple;
+}
+
+

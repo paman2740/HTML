@@ -1,0 +1,9 @@
+table {
+    border-spacing: 0.5rem;
+  }
+  td {
+    padding: 0.5rem;
+  }
+  td:nth-child(1){background: hsl(53, 60%, 3%); color: azure;}
+  tr:nth-child(2){background: hsl(138, 81%, 44%);color: aliceblue;}
+  td:n
